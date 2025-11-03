@@ -42,14 +42,14 @@ const styles = StyleSheet.create({
   titleText: {
     fontSize: FONT_SIZE.large,
     textAlign: "center",
-    fontWeight: 800,
+    fontWeight: "800",
     color: COLORS.white,
   },
   titleSubTextContainer: {
     marginTop: SPACING.medium,
   },
   titleSubText: {
-    fontWeight: 300,
+    fontWeight: "300",
     fontSize: FONT_SIZE.small,
     textAlign: "center",
     color: COLORS.white,
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   },
   buttonPrimaryText: {
     fontSize: FONT_SIZE.small,
-    fontWeight: 300,
+    fontWeight: "300",
     textAlign: "center",
   },
   buttonSecondary: {
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
   },
   buttonSecondaryText: {
     fontSize: FONT_SIZE.small,
-    fontWeight: 300,
+    fontWeight: "300",
     textAlign: "center",
     color: COLORS.white,
   },
@@ -97,3 +97,4 @@ const styles = StyleSheet.create({
 });
 
 export { styles };
+

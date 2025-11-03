@@ -15,11 +15,11 @@ const styles = StyleSheet.create({
     marginTop: 20
   },
   titleText: {
-    fontWeight: 700,
+    fontWeight: "700",
     fontSize: 39,
   },
   subText: {
-    fontWeight: 400,
+    fontWeight: "400",
     fontSize: 12,
     color: '#7E7B7B'
   },
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   },
   formLabel: {
     fontSize: 18,
-    fontWeight: 400,
+    fontWeight: "400",
     color: '#7B7B7B',
     marginBottom: 7
   },
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   buttonText: {
     color: 'white',
     fontSize: 17,
-    fontWeight: 300
+    fontWeight: "300"
   },
   secondaryButtonGroup: {
     rowGap: 15,
@@ -80,23 +80,23 @@ const styles = StyleSheet.create({
   },
   secondaryButtonText: {
     fontSize: 18,
-    fontWeight: 400
+    fontWeight: "400"
   },
   signupgroup: {
     flexDirection: 'row',
     justifyContent: 'center',
     position: 'absolute',
-    left: 77, 
+    left: 77,
     right: 76,
     bottom: 33
   },
   signupTitleText: {
     fontSize: 18,
-    fontWeight: 400
+    fontWeight: "400"
   },
   signupSubTitleText: {
     fontSize: 18,
-    fontWeight: 600,
+    fontWeight: "600",
     color: '#FFA800'
   },
   dividerGroup: {
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
   },
   dividerText: {
     fontSize: 17,
-    fontWeight: 500,
+    fontWeight: "500",
     fontVariant: ['small-caps'],
     color: '#C2C2C2'
   },
@@ -124,4 +124,5 @@ const styles = StyleSheet.create({
   }
 });
 
-export { styles }
+export { styles };
+
